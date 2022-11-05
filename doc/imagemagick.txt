@@ -1,0 +1,7 @@
+for i in $(seq 6)
+do 
+    convert IPadminiWhite-small.png \
+        \( ipad-$i.png -resize 2053x1544 -background none -gravity center -extent 2053x1544 \) \
+        -gravity northwest -geometry +256+93 -composite install-$i.png
+    pngcrush -ow install-$i.png
+done

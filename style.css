@@ -2,9 +2,9 @@
 Theme Name: elder iOS theme
 Author: Thomas M. Parks
 Description: Full-screen web applications for iOS devices.
-Version: 0.0
+Version: 2022.1
 Requires at least: 5.6
-Tested up to: 5.6
+Tested up to: 6.0
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -16,13 +16,18 @@ body {
   padding: 0px;
   color: white;
   background-color: black;
-  font-size: xx-large;
+  font-size: large;
   font-family: Georgia,serif;
+}
+
+a {
+  color: lightblue;
 }
 .tile {
   margin: 24px;
   float: left;
   text-align: center;
+  font-size: xx-large;
 }
 .tile :link {
   color: white;
